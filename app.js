@@ -20,7 +20,7 @@ const app = new Vue ({
 
                     console.log(i);
 
-                    this.indirizzi[i] = this.indirizzo;
+                    this.indirizzi.push(this.indirizzo);
                     console.log(this.indirizzi);
                 });
 
