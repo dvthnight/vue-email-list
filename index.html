@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>VUE EMAIL LIST</title>
 </head>
 <body>
 
     <div id="app">
 
-        <ul>
-            <li v-for="(el,i) in indirizzi" v-if="indirizzi.length==10">{{el}}</li>
+        <h1>Indirizzi mail</h1>
+
+        <ul class="contenitore_lista">
+            <li class="el_lista" v-for="(el,i) in indirizzi" v-if="indirizzi.length==10">{{i+1}}. {{el}}</li>
         </ul>
     </div>
     

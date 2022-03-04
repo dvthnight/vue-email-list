@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li{
+    list-style: none;
+}
+
+body{
+    padding: 20px;
+    font-family: 'Hubballi', cursive;
+}
+
+.el_lista{
+    padding: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+}
